@@ -1,0 +1,607 @@
+2025-01-27 19:38:59,049 - __main__ - INFO - Avvio dell'applicazione...
+2025-01-27 19:38:59,053 - __main__ - ERROR - Dipendenze mancanti. Installale prima di continuare.
+2025-01-27 19:38:59,053 - __main__ - INFO - Applicazione terminata
+2025-01-27 20:46:25,110 - __main__ - INFO - Avvio dell'applicazione...
+2025-01-27 20:46:25,111 - root - INFO - Creata directory: database
+2025-01-27 20:46:25,111 - root - WARNING - File mancanti:
+2025-01-27 20:46:25,111 - root - WARNING - - resources/icons/send.png
+2025-01-27 20:46:25,111 - root - WARNING - - resources/icons/save.png
+2025-01-27 20:46:25,112 - root - WARNING - - resources/icons/load.png
+2025-01-27 20:46:25,112 - root - WARNING - - resources/icons/clear.png
+2025-01-27 20:46:25,112 - __main__ - WARNING - Alcune risorse sono mancanti. L'applicazione potrebbe non funzionare correttamente.
+2025-01-27 20:46:28,808 - app.nlp - ERROR - Errore nell'inizializzazione di NLPProcessor: [E050] Can't find model 'it_core_news_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-01-27 20:57:02,101 - __main__ - INFO - Avvio dell'applicazione...
+2025-01-27 20:57:02,102 - root - WARNING - File mancanti:
+2025-01-27 20:57:02,102 - root - WARNING - - resources/icons/send.png
+2025-01-27 20:57:02,103 - root - WARNING - - resources/icons/save.png
+2025-01-27 20:57:02,103 - root - WARNING - - resources/icons/load.png
+2025-01-27 20:57:02,103 - root - WARNING - - resources/icons/clear.png
+2025-01-27 20:57:02,103 - __main__ - WARNING - Alcune risorse sono mancanti. L'applicazione potrebbe non funzionare correttamente.
+2025-01-27 20:57:03,599 - app.nlp - ERROR - Impossibile caricare il modello primario: [E050] Can't find model 'it_core_news_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-01-27 20:57:03,599 - app.nlp - WARNING - Modello it_core_news_sm non trovato, tentativo con modello en
+2025-01-27 20:57:03,602 - app.nlp - ERROR - Impossibile caricare il modello fallback: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-01-27 20:57:03,602 - app.nlp - ERROR - Errore nel caricamento del modello fallback: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-01-27 21:08:05,712 - __main__ - INFO - Avvio dell'applicazione...
+2025-01-27 21:08:05,713 - root - WARNING - File mancanti:
+2025-01-27 21:08:05,714 - root - WARNING - - resources/icons/send.png
+2025-01-27 21:08:05,714 - root - WARNING - - resources/icons/save.png
+2025-01-27 21:08:05,714 - root - WARNING - - resources/icons/load.png
+2025-01-27 21:08:05,714 - root - WARNING - - resources/icons/clear.png
+2025-01-27 21:08:05,714 - __main__ - WARNING - Alcune risorse sono mancanti. L'applicazione potrebbe non funzionare correttamente.
+2025-01-27 21:08:09,973 - app.nlp - WARNING - Errore nel caricamento dell'analizzatore sentimenti: dbmdz/bert-base-italian-uncased-sentiment is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-01-27 21:08:15,313 - app.nlp - WARNING - Errore nel caricamento del summarizer: Could not load model facebook/bart-large-cnn with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.bart.modeling_bart.BartForConditionalGeneration'>). See the original errors:
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 460, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 504, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /facebook/bart-large-cnn/40041830399afb5348525ef8354b007ecec4286fdf3524f7e6b54377e17096cb?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1738012091&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjA5MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9mYWNlYm9vay9iYXJ0LWxhcmdlLWNubi80MDA0MTgzMDM5OWFmYjUzNDg1MjVlZjgzNTRiMDA3ZWNlYzQyODZmZGYzNTI0ZjdlNmI1NDM3N2UxNzA5NmNiP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249KiJ9XX0_&Signature=q1uu1hm9Xc6-OmySsYvwXmPv6-RouoBgAVAnhz8Fm7qwMBI0toKNsd5ksP-QOaTzLkt2iO6k5C1tDZOHCvJRfzOfw9cv2HHNfjO6IxhSCbnvGcxb7KIzHlX4NY1rUQkuIJ-4jJ2A5bRXvIp42~Rhn3y8Ms3ppJ4VT3K5Fv5ka1N46I1klTyBpvT5Oh3jucBPfqj8ue0Ic~KNa1yblUFQ-e3IbnozN5TFdyt-aZDircCNx2a0WpUdY1US3EBDRCTXDnCVXDUuFoXJDI06T0ERMdmRoZPSobAS71ZmjNgvDwF4GuFqUyAqEBBVMLnpFMUW3pqEKoYh83R4dFek8gpHpQ__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\modeling_utils.py", line 3776, in from_pretrained
+    resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\utils\hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 860, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1009, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1543, in _download_to_tmp_and_move
+    http_get(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 369, in http_get
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 301, in _request_wrapper
+    response = get_session().request(method=method, url=url, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 93, in send
+    return super().send(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: (MaxRetryError("HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /facebook/bart-large-cnn/40041830399afb5348525ef8354b007ecec4286fdf3524f7e6b54377e17096cb?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1738012091&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjA5MX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9mYWNlYm9vay9iYXJ0LWxhcmdlLWNubi80MDA0MTgzMDM5OWFmYjUzNDg1MjVlZjgzNTRiMDA3ZWNlYzQyODZmZGYzNTI0ZjdlNmI1NDM3N2UxNzA5NmNiP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249KiJ9XX0_&Signature=q1uu1hm9Xc6-OmySsYvwXmPv6-RouoBgAVAnhz8Fm7qwMBI0toKNsd5ksP-QOaTzLkt2iO6k5C1tDZOHCvJRfzOfw9cv2HHNfjO6IxhSCbnvGcxb7KIzHlX4NY1rUQkuIJ-4jJ2A5bRXvIp42~Rhn3y8Ms3ppJ4VT3K5Fv5ka1N46I1klTyBpvT5Oh3jucBPfqj8ue0Ic~KNa1yblUFQ-e3IbnozN5TFdyt-aZDircCNx2a0WpUdY1US3EBDRCTXDnCVXDUuFoXJDI06T0ERMdmRoZPSobAS71ZmjNgvDwF4GuFqUyAqEBBVMLnpFMUW3pqEKoYh83R4dFek8gpHpQ__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 2c8b1b38-4348-4a28-9bc2-f3b692cfa694)')
+
+while loading with BartForConditionalGeneration, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 460, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 504, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /facebook/bart-large-cnn/40041830399afb5348525ef8354b007ecec4286fdf3524f7e6b54377e17096cb?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1738012093&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjA5M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9mYWNlYm9vay9iYXJ0LWxhcmdlLWNubi80MDA0MTgzMDM5OWFmYjUzNDg1MjVlZjgzNTRiMDA3ZWNlYzQyODZmZGYzNTI0ZjdlNmI1NDM3N2UxNzA5NmNiP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249KiJ9XX0_&Signature=Uc8iGhTTG3ppnaRMIONMw4OnWp5t11T~uAwiR~RVDuGqvMnW-fLwgsiFIbv9jgKSLMeoVXDuYh7rgwA4KhQ19wDYc9~1yok-wwajmOFiSfjRmYRB1Zl9XAe0QaWZ7~0wxAG1G5Br9NMAQfVXTgodykvsAeAO7fzrgTmAt70d4z2HvlAhozB0Vuv-OC73MirzSv53DuUZ7vu59A9h01k3SC6nA72mNaseo2qw8tq7to4~HYN06Pi94IrmHEIbRYH0SwBZ8-87zlV2VRLqj0jZrSGBG1kw4889K1xhr54v54u1KHCi6zWW9xCSG~liv2a--gl4xm8e5P7znm8wjc1QwA__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\modeling_utils.py", line 3776, in from_pretrained
+    resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\utils\hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 860, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1009, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1543, in _download_to_tmp_and_move
+    http_get(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 369, in http_get
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 301, in _request_wrapper
+    response = get_session().request(method=method, url=url, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 93, in send
+    return super().send(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: (MaxRetryError("HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /facebook/bart-large-cnn/40041830399afb5348525ef8354b007ecec4286fdf3524f7e6b54377e17096cb?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1738012093&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjA5M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9mYWNlYm9vay9iYXJ0LWxhcmdlLWNubi80MDA0MTgzMDM5OWFmYjUzNDg1MjVlZjgzNTRiMDA3ZWNlYzQyODZmZGYzNTI0ZjdlNmI1NDM3N2UxNzA5NmNiP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249KiJ9XX0_&Signature=Uc8iGhTTG3ppnaRMIONMw4OnWp5t11T~uAwiR~RVDuGqvMnW-fLwgsiFIbv9jgKSLMeoVXDuYh7rgwA4KhQ19wDYc9~1yok-wwajmOFiSfjRmYRB1Zl9XAe0QaWZ7~0wxAG1G5Br9NMAQfVXTgodykvsAeAO7fzrgTmAt70d4z2HvlAhozB0Vuv-OC73MirzSv53DuUZ7vu59A9h01k3SC6nA72mNaseo2qw8tq7to4~HYN06Pi94IrmHEIbRYH0SwBZ8-87zlV2VRLqj0jZrSGBG1kw4889K1xhr54v54u1KHCi6zWW9xCSG~liv2a--gl4xm8e5P7znm8wjc1QwA__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: eb810170-e00c-4bac-992b-ca26b0e5dbd2)')
+
+
+
+2025-01-27 21:08:19,881 - app.nlp - WARNING - Errore nel caricamento del traduttore: Could not load model Helsinki-NLP/opus-mt-it-en with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.marian.modeling_marian.MarianMTModel'>). See the original errors:
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 460, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 504, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /Helsinki-NLP/opus-mt-it-en/7b16287e467858b369c477d39498427197500a6b477e3d76c2fbcc54d915d8f3?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1738012096&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjA5Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9IZWxzaW5raS1OTFAvb3B1cy1tdC1pdC1lbi83YjE2Mjg3ZTQ2Nzg1OGIzNjljNDc3ZDM5NDk4NDI3MTk3NTAwYTZiNDc3ZTNkNzZjMmZiY2M1NGQ5MTVkOGYzP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249KiZyZXNwb25zZS1jb250ZW50LXR5cGU9KiJ9XX0_&Signature=g9xa4HKUO~umkK~2stzEoGoHzyAYHtMqpFUk5pGr1yMPUhrGfZMsI~sp6zqYyTz7gB5KE3T7LTf4ffIZj8HBqGz716hD3VpExQU8xZmEjoevf5OJ-sxvwUPzm5Du4ZJtJhoXHCYxVWhff1D8oysaPTx5XxYh5Lk7tpvkK1t8k-17ZKU3otG0VhRJbxv6PXrCev3dLZIMbrHkxCjZbc5z9f~VObrFpWvlutxRGT4GsevOYZXr2tS0yTapqbNEG6wpjo2rg8LyQTxg6t5f9CHMCJqQ2P5Vw1Qxw2pIZk~LhMlFOZZiddTKiM9FFU0Lye5vaqNuqg84WJ-W2Nhrs8WbiQ__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\modeling_utils.py", line 3805, in from_pretrained
+    resolved_archive_file = cached_file(
+                            ^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\utils\hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 860, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1009, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1543, in _download_to_tmp_and_move
+    http_get(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 369, in http_get
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 301, in _request_wrapper
+    response = get_session().request(method=method, url=url, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 93, in send
+    return super().send(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: (MaxRetryError("HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /Helsinki-NLP/opus-mt-it-en/7b16287e467858b369c477d39498427197500a6b477e3d76c2fbcc54d915d8f3?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1738012096&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjA5Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9IZWxzaW5raS1OTFAvb3B1cy1tdC1pdC1lbi83YjE2Mjg3ZTQ2Nzg1OGIzNjljNDc3ZDM5NDk4NDI3MTk3NTAwYTZiNDc3ZTNkNzZjMmZiY2M1NGQ5MTVkOGYzP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249KiZyZXNwb25zZS1jb250ZW50LXR5cGU9KiJ9XX0_&Signature=g9xa4HKUO~umkK~2stzEoGoHzyAYHtMqpFUk5pGr1yMPUhrGfZMsI~sp6zqYyTz7gB5KE3T7LTf4ffIZj8HBqGz716hD3VpExQU8xZmEjoevf5OJ-sxvwUPzm5Du4ZJtJhoXHCYxVWhff1D8oysaPTx5XxYh5Lk7tpvkK1t8k-17ZKU3otG0VhRJbxv6PXrCev3dLZIMbrHkxCjZbc5z9f~VObrFpWvlutxRGT4GsevOYZXr2tS0yTapqbNEG6wpjo2rg8LyQTxg6t5f9CHMCJqQ2P5Vw1Qxw2pIZk~LhMlFOZZiddTKiM9FFU0Lye5vaqNuqg84WJ-W2Nhrs8WbiQ__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 8e8f3dcd-5b51-46f9-93cd-7d3e54ef4028)')
+
+while loading with MarianMTModel, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 460, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 504, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /Helsinki-NLP/opus-mt-it-en/7b16287e467858b369c477d39498427197500a6b477e3d76c2fbcc54d915d8f3?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1738012098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9IZWxzaW5raS1OTFAvb3B1cy1tdC1pdC1lbi83YjE2Mjg3ZTQ2Nzg1OGIzNjljNDc3ZDM5NDk4NDI3MTk3NTAwYTZiNDc3ZTNkNzZjMmZiY2M1NGQ5MTVkOGYzP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249KiZyZXNwb25zZS1jb250ZW50LXR5cGU9KiJ9XX0_&Signature=P4Nv8S7oqpXh4es3hvRnmvtVSpJpgq~BL4v8fKSs-PENcmLPfS4LoBMUuh7m7vUSQ-hguIZWoyuG2A8lTgJ-eTPYnpO~jNKlyQ-1tCG~yF2WBbQ4Cl5RHzZYH8u8iCytERSwuZLrtP7zkE48fuhlDS4th0C6BQTv~Z-kWRg-oy9DX~TLWbxADtVWTW1XpEKI~LAuAjh1yAS56cLmyo7qOIva9Wbru8lRyOlC4iac0eke2tUisvpbHOEfg4WfmRoz4iCayTY5OgnG-mlhg~XjmgPuL8N2CD0zKJqGW5mGFeolVFIYOd~3A3EHXZFEAW241NWEVXy-N-LDMgBV6vh8hQ__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\modeling_utils.py", line 3805, in from_pretrained
+    resolved_archive_file = cached_file(
+                            ^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\utils\hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 860, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1009, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1543, in _download_to_tmp_and_move
+    http_get(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 369, in http_get
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 301, in _request_wrapper
+    response = get_session().request(method=method, url=url, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 93, in send
+    return super().send(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: (MaxRetryError("HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /Helsinki-NLP/opus-mt-it-en/7b16287e467858b369c477d39498427197500a6b477e3d76c2fbcc54d915d8f3?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1738012098&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjA5OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9IZWxzaW5raS1OTFAvb3B1cy1tdC1pdC1lbi83YjE2Mjg3ZTQ2Nzg1OGIzNjljNDc3ZDM5NDk4NDI3MTk3NTAwYTZiNDc3ZTNkNzZjMmZiY2M1NGQ5MTVkOGYzP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249KiZyZXNwb25zZS1jb250ZW50LXR5cGU9KiJ9XX0_&Signature=P4Nv8S7oqpXh4es3hvRnmvtVSpJpgq~BL4v8fKSs-PENcmLPfS4LoBMUuh7m7vUSQ-hguIZWoyuG2A8lTgJ-eTPYnpO~jNKlyQ-1tCG~yF2WBbQ4Cl5RHzZYH8u8iCytERSwuZLrtP7zkE48fuhlDS4th0C6BQTv~Z-kWRg-oy9DX~TLWbxADtVWTW1XpEKI~LAuAjh1yAS56cLmyo7qOIva9Wbru8lRyOlC4iac0eke2tUisvpbHOEfg4WfmRoz4iCayTY5OgnG-mlhg~XjmgPuL8N2CD0zKJqGW5mGFeolVFIYOd~3A3EHXZFEAW241NWEVXy-N-LDMgBV6vh8hQ__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 1b2afcc3-62fc-40a6-88b2-34fad42609c8)')
+
+
+
+2025-01-27 21:08:24,635 - app.nlp - WARNING - Errore nel caricamento del question answerer: Could not load model deepset/roberta-base-squad2 with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForQuestionAnswering'>, <class 'transformers.models.roberta.modeling_roberta.RobertaForQuestionAnswering'>). See the original errors:
+
+while loading with AutoModelForQuestionAnswering, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 460, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 504, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /deepset/roberta-base-squad2/ac5db66fdcfecb400345d09787b71009d60805ef9883451071669cf951b5e2c7?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1738012100&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjEwMH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9kZWVwc2V0L3JvYmVydGEtYmFzZS1zcXVhZDIvYWM1ZGI2NmZkY2ZlY2I0MDAzNDVkMDk3ODdiNzEwMDlkNjA4MDVlZjk4ODM0NTEwNzE2NjljZjk1MWI1ZTJjNz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Ci7Yv5Tr77xr2mnfTAdHKjXEMEuQsNY48YcEf25ffL-CpRkRGe-Whr5IpoKsoVv4WDRCGZCtJ9rqB3qyQ3oejoWV1hrQ~72qVx71902bo8wQaiMMnp3O5b9Q19X2prAWMcJSUpGPOMPYRU2yRdQJa14Dxa6tCzp08GgqraTp73VOHFz4urNYueF0X9AYGN5Oao8GnpqMoTaX7EAQtHSDGIr-JTf0Uxoe-7hi7IdPhm~RZe2q8HE~6Eb5-U5Kn3lH~PrBDH-teScYj3G5RtES~IFJqYVOq5LlbpK240q7lIfGbd~KjuifrNbbNun6zCQWsSElr1KbTHpYFYAGqpOrTw__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\modeling_utils.py", line 3776, in from_pretrained
+    resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\utils\hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 860, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1009, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1543, in _download_to_tmp_and_move
+    http_get(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 369, in http_get
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 301, in _request_wrapper
+    response = get_session().request(method=method, url=url, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 93, in send
+    return super().send(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: (MaxRetryError("HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /deepset/roberta-base-squad2/ac5db66fdcfecb400345d09787b71009d60805ef9883451071669cf951b5e2c7?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1738012100&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjEwMH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9kZWVwc2V0L3JvYmVydGEtYmFzZS1zcXVhZDIvYWM1ZGI2NmZkY2ZlY2I0MDAzNDVkMDk3ODdiNzEwMDlkNjA4MDVlZjk4ODM0NTEwNzE2NjljZjk1MWI1ZTJjNz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=Ci7Yv5Tr77xr2mnfTAdHKjXEMEuQsNY48YcEf25ffL-CpRkRGe-Whr5IpoKsoVv4WDRCGZCtJ9rqB3qyQ3oejoWV1hrQ~72qVx71902bo8wQaiMMnp3O5b9Q19X2prAWMcJSUpGPOMPYRU2yRdQJa14Dxa6tCzp08GgqraTp73VOHFz4urNYueF0X9AYGN5Oao8GnpqMoTaX7EAQtHSDGIr-JTf0Uxoe-7hi7IdPhm~RZe2q8HE~6Eb5-U5Kn3lH~PrBDH-teScYj3G5RtES~IFJqYVOq5LlbpK240q7lIfGbd~KjuifrNbbNun6zCQWsSElr1KbTHpYFYAGqpOrTw__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: 64ecee06-c5b2-41bc-9dca-73df11924232)')
+
+while loading with RobertaForQuestionAnswering, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 460, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 504, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\ssl.py", line 1042, in _create
+    self.do_handshake()
+  File "C:\Python312\Lib\ssl.py", line 1320, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /deepset/roberta-base-squad2/ac5db66fdcfecb400345d09787b71009d60805ef9883451071669cf951b5e2c7?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1738012102&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjEwMn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9kZWVwc2V0L3JvYmVydGEtYmFzZS1zcXVhZDIvYWM1ZGI2NmZkY2ZlY2I0MDAzNDVkMDk3ODdiNzEwMDlkNjA4MDVlZjk4ODM0NTEwNzE2NjljZjk1MWI1ZTJjNz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=HWN-O4Jekf71ghwnOCa1AU7C7CdLRTLexucaIyuTVcmoIPLNfIO1utk3L0a8y59xmm6iXOvPGpHmh0HNCpnd9iq4nil6jzFZiVthvz-N5A9EMCT3weA9d2Weq8KRJMtxkLylPyFB5WY7TfM2zt9QPqZL1rEdwHSefbu4afE6vKs8PAZLDNe9GgEVO1fZy2pvkskPubbQhHf3ADHQWy21BOyCtBCVmwhii0cHJVblDbHQKYZ6o1blbJlmxrgV9Sy3G3tRpc4TfOY1gP0qWdX3e3B8EPLOJxmHX1XxpIqE~466krDShwLLJOgzGMLSAr-AruXeicc0vEffDqrLBkSWYw__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\pipelines\base.py", line 289, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\modeling_utils.py", line 3776, in from_pretrained
+    resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\transformers\utils\hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 860, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1009, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 1543, in _download_to_tmp_and_move
+    http_get(
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 369, in http_get
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\file_download.py", line 301, in _request_wrapper
+    response = get_session().request(method=method, url=url, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 93, in send
+    return super().send(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gueas\PycharmProjects\Analys_Tools_SG\.venv\Lib\site-packages\requests\adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: (MaxRetryError("HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Max retries exceeded with url: /deepset/roberta-base-squad2/ac5db66fdcfecb400345d09787b71009d60805ef9883451071669cf951b5e2c7?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1738012102&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczODAxMjEwMn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9kZWVwc2V0L3JvYmVydGEtYmFzZS1zcXVhZDIvYWM1ZGI2NmZkY2ZlY2I0MDAzNDVkMDk3ODdiNzEwMDlkNjA4MDVlZjk4ODM0NTEwNzE2NjljZjk1MWI1ZTJjNz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=HWN-O4Jekf71ghwnOCa1AU7C7CdLRTLexucaIyuTVcmoIPLNfIO1utk3L0a8y59xmm6iXOvPGpHmh0HNCpnd9iq4nil6jzFZiVthvz-N5A9EMCT3weA9d2Weq8KRJMtxkLylPyFB5WY7TfM2zt9QPqZL1rEdwHSefbu4afE6vKs8PAZLDNe9GgEVO1fZy2pvkskPubbQhHf3ADHQWy21BOyCtBCVmwhii0cHJVblDbHQKYZ6o1blbJlmxrgV9Sy3G3tRpc4TfOY1gP0qWdX3e3B8EPLOJxmHX1XxpIqE~466krDShwLLJOgzGMLSAr-AruXeicc0vEffDqrLBkSWYw__&Key-Pair-Id=K3RPWS32NSSJCE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"), '(Request ID: e25e7433-9ce0-4f46-87ce-46cf92fa9b36)')
+
+
+
+2025-01-27 21:08:34,189 - app.database - ERROR - Errore nell'inizializzazione del database: 
+2025-01-27 21:10:28,644 - app.query_generator - ERROR - Errore nella generazione della query: La query generata non è sicura

@@ -1,0 +1,40 @@
+2025-01-27 19:48:27,405 - INFO - ChurnAnalyzer initialized
+2025-01-27 19:48:27,468 - INFO - Generated mock data with 2000 samples
+2025-01-27 19:48:27,647 - INFO - Data preprocessing completed
+2025-01-27 19:48:27,653 - INFO - Starting model training...
+2025-01-27 19:56:20,193 - INFO - ChurnAnalyzer initialized
+2025-01-27 19:56:20,228 - INFO - Generated mock data with 2000 samples
+2025-01-27 19:56:20,330 - INFO - Data preprocessing completed
+2025-01-27 19:56:20,334 - INFO - Starting model training...
+2025-01-27 20:04:21,248 - INFO - ChurnAnalyzer initialized
+2025-01-27 20:04:21,274 - INFO - Generated mock data with 1000 samples
+2025-01-27 20:04:21,365 - INFO - Data preprocessing completed
+2025-01-27 20:04:21,369 - INFO - Starting model training...
+2025-01-27 20:04:40,221 - INFO - Random Forest selected as best model
+2025-01-27 20:04:45,123 - INFO - Model training completed
+2025-01-27 20:04:53,174 - INFO - Model evaluation completed
+2025-01-27 20:04:54,361 - INFO - Customer segmentation completed with 2 segments
+2025-01-27 20:10:00,777 - INFO - ChurnAnalyzer initialized
+2025-01-27 20:10:00,798 - INFO - Generated mock data with 1000 samples
+2025-01-27 20:10:00,914 - INFO - Data preprocessing completed
+2025-01-27 20:10:00,917 - INFO - Starting model training...
+2025-01-27 20:10:21,961 - INFO - Random Forest selected as best model
+2025-01-27 20:10:26,807 - INFO - Model training completed
+2025-01-27 20:16:04,702 - INFO - ChurnAnalyzer initialized
+2025-01-27 20:16:43,790 - INFO - Generated mock data with 1000 samples
+2025-01-27 20:17:54,101 - INFO - Data preprocessing completed
+2025-01-27 20:17:54,101 - INFO - Starting model training...
+2025-01-27 20:18:14,000 - INFO - Random Forest selected as best model
+2025-01-27 20:18:19,645 - INFO - Model training completed
+2025-01-27 20:18:56,068 - INFO - Customer segmentation completed with 2 segments
+2025-01-27 20:18:57,396 - INFO - Segment analysis completed
+2025-01-27 20:20:04,603 - INFO - Data preprocessing completed
+2025-01-27 20:24:22,555 - INFO - ChurnAnalyzer initialized
+2025-01-27 20:24:38,448 - INFO - Generated mock data with 1000 samples
+2025-01-27 20:25:11,259 - INFO - Data preprocessing completed
+2025-01-27 20:25:11,275 - INFO - Starting model training...
+2025-01-27 20:25:29,475 - INFO - Random Forest selected as best model
+2025-01-27 20:25:34,253 - INFO - Model training completed
+2025-01-27 20:26:02,380 - INFO - Data preprocessing completed
+2025-01-27 20:26:29,213 - INFO - Customer segmentation completed with 2 segments
+2025-01-27 20:28:32,030 - INFO - ChurnAnalyzer initialized
