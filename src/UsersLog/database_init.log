@@ -2004,3 +2004,33 @@
 2025-01-27 20:42:44,333 - INFO - Login riuscito - Utente: admin, Ruolo: admin
 2025-01-27 20:42:44,882 - INFO - ChurnAnalyzer initialized
 2025-01-27 20:44:20,610 - INFO - Generated mock data with 1000 samples
+2025-01-28 12:32:21,651 - INFO - Directory base del progetto (src): C:\Users\gueas\PycharmProjects\Analys_Tools_SG\src
+2025-01-28 12:32:21,652 - INFO - Directory data: C:\Users\gueas\PycharmProjects\Analys_Tools_SG\src\data
+2025-01-28 12:32:21,653 - INFO - File database: C:\Users\gueas\PycharmProjects\Analys_Tools_SG\src\data\users.db
+2025-01-28 12:32:38,694 - INFO - Directory base: C:\Users\gueas\PycharmProjects\Analys_Tools_SG
+2025-01-28 12:32:38,694 - INFO - Directory data: C:\Users\gueas\PycharmProjects\Analys_Tools_SG\data
+2025-01-28 12:32:38,695 - INFO - File database: C:\Users\gueas\PycharmProjects\Analys_Tools_SG\data\users.db
+2025-01-28 12:32:38,696 - INFO - Database non trovato. Inizializzazione...
+2025-01-28 12:32:38,696 - INFO - Inizializzazione del database...
+2025-01-28 12:32:38,697 - INFO - Database esistente eliminato (reinizializzazione forzata)
+2025-01-28 12:32:38,712 - INFO - Tabella 'users' creata (o già esistente).
+2025-01-28 12:32:38,721 - INFO - Tabella 'access_logs' creata (o già esistente).
+2025-01-28 12:32:38,730 - INFO - Tabella 'user_settings' creata (o già esistente).
+2025-01-28 12:32:38,735 - INFO - Utente admin creato (se non già presente).
+2025-01-28 12:32:38,742 - INFO - Database inizializzato con successo!
+2025-01-28 12:32:38,744 - INFO - Inizializzazione sistema completata
+2025-01-28 12:33:57,448 - INFO - Login riuscito - Utente: admin, Ruolo: admin
+2025-01-28 12:33:57,968 - INFO - ChurnAnalyzer initialized
+2025-01-28 12:35:30,085 - INFO - Generated mock data with 1000 samples
+2025-01-28 12:36:23,021 - INFO - Data preprocessing completed
+2025-01-28 12:36:23,027 - INFO - Starting model training...
+2025-01-28 12:36:42,973 - INFO - Random Forest selected as best model
+2025-01-28 12:36:48,529 - INFO - Model training completed
+2025-01-28 12:37:30,202 - INFO - Data preprocessing completed
+2025-01-28 12:37:33,061 - INFO - Customer segmentation completed with 2 segments
+2025-01-28 12:37:33,068 - ERROR - Error generating report: 'ChurnAnalyzer' object has no attribute 'plot_segment_analysis'
+2025-01-28 12:38:45,295 - ERROR - Error analyzing segments: 'ChurnAnalyzer' object has no attribute 'plot_segment_analysis'
+2025-01-28 15:23:16,846 - INFO - Data preprocessing completed
+2025-01-28 15:23:21,152 - ERROR - Error generating report: 'ChurnAnalyzer' object has no attribute 'plot_segment_analysis'
+2025-01-28 17:22:08,025 - INFO - Login riuscito - Utente: admin, Ruolo: admin
+2025-01-28 17:22:08,030 - ERROR - Errore post-login: can't invoke "destroy" command: application has been destroyed
