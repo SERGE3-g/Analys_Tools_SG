@@ -2034,3 +2034,20 @@
 2025-01-28 15:23:21,152 - ERROR - Error generating report: 'ChurnAnalyzer' object has no attribute 'plot_segment_analysis'
 2025-01-28 17:22:08,025 - INFO - Login riuscito - Utente: admin, Ruolo: admin
 2025-01-28 17:22:08,030 - ERROR - Errore post-login: can't invoke "destroy" command: application has been destroyed
+2025-01-28 19:51:32,906 - INFO - Directory base del progetto (src): C:\Users\gueas\PycharmProjects\Analys_Tools_SG\src
+2025-01-28 19:51:32,907 - INFO - Directory data: C:\Users\gueas\PycharmProjects\Analys_Tools_SG\src\data
+2025-01-28 19:51:32,907 - INFO - File database: C:\Users\gueas\PycharmProjects\Analys_Tools_SG\src\data\users.db
+2025-01-28 19:51:55,660 - INFO - Directory base: C:\Users\gueas\PycharmProjects\Analys_Tools_SG
+2025-01-28 19:51:55,660 - INFO - Directory data: C:\Users\gueas\PycharmProjects\Analys_Tools_SG\data
+2025-01-28 19:51:55,661 - INFO - File database: C:\Users\gueas\PycharmProjects\Analys_Tools_SG\data\users.db
+2025-01-28 19:51:55,662 - INFO - Database non trovato. Inizializzazione...
+2025-01-28 19:51:55,662 - INFO - Inizializzazione del database...
+2025-01-28 19:51:55,663 - INFO - Database esistente eliminato (reinizializzazione forzata)
+2025-01-28 19:51:55,702 - INFO - Tabella 'users' creata (o già esistente).
+2025-01-28 19:51:55,721 - INFO - Tabella 'access_logs' creata (o già esistente).
+2025-01-28 19:51:55,731 - INFO - Tabella 'user_settings' creata (o già esistente).
+2025-01-28 19:51:55,736 - INFO - Utente admin creato (se non già presente).
+2025-01-28 19:51:55,773 - INFO - Database inizializzato con successo!
+2025-01-28 19:51:55,775 - INFO - Inizializzazione sistema completata
+2025-01-28 19:55:21,113 - INFO - Login riuscito - Utente: admin, Ruolo: admin
+2025-01-28 19:55:21,813 - INFO - ChurnAnalyzer initialized
